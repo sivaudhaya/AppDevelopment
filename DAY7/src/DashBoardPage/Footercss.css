@@ -1,0 +1,35 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: -1px ;
+    text-align: center;
+    margin-top: 501px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+}
+.container a{
+    color: #fff;
+  
+    text-decoration: none;
+    float: right;
+  }
+  .container aa{
+    color: #fff;
+  
+    text-decoration: none;
+    float: right;
+    margin-left: 100px;
+  }
+  .terms{
+    padding: -20px;
+  }
+ 

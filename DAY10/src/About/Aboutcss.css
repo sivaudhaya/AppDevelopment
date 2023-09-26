@@ -1,0 +1,106 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  
+
+  .dashboard-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Navbar styles */
+  .navbar22 {
+    background-color: #75bb26;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  
+  .navbar22 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar22 li {
+    font-weight: 600;
+    margin: 2px 0px 0 5px;
+    transition: all 0.3s;
+  }
+  
+  
+  .navbar22 a {
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  
+  /* Sidebar styles */
+  .sidebar22 {
+    background-color: #333;
+    color: #fff;
+    width: 140px; /* Narrow sidebar */
+    min-height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: width 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+ 
+  
+  .sidebar22 ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 60px;
+  }
+  
+  .sidebar22 li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar22 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  .sidebar22 a:hover {
+    color: #75bb26; /* Change the font color on hover */
+  }
+  
+ 
+
+  /* Content styles */
+  .content2 {
+    margin-left: 160px; /* Adjust for the sidebar width */
+    padding: 20px;
+    background-color: #fff; /* White content background */
+    margin-top: 55px; /* Adjust for the navbar height */
+    width: 1153px;
+
+  }
+  .content-header {
+    margin-bottom: 20px;
+  }
+  
+  .content-header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
